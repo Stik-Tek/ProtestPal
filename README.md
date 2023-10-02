@@ -37,7 +37,7 @@ docker build -t protest-pal-frontend .
 ```
 4. Run Docker image.
 ```
-docker run -p 8080:80 protest-pal-frontend
+docker run -p 3000:3000 protest-pal-frontend
 ```
 
 ### Using Node

@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose a port (usually 80 for web applications)
-EXPOSE 80
+EXPOSE 3000
 
 # Define the command to run when the container starts
 CMD ["npm", "start"]
