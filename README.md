@@ -2,7 +2,7 @@
 
 ProtestPal is a property tax protesting app built with React ⚛ that empowers property owners to take control of their property tax bills 💪 and participate in tax protests. With ProtestPal, you can easily access property assessment information, file protests, and connect with a community of like-minded individuals fighting for fair property taxes. 
 
-<iframe src="https://giphy.com/embed/xEp3raFQkgpgY" width="480" height="346" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/xEp3raFQkgpgY">via GIPHY</a></p>
+![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/mr-crabs-upset-1.gif)
 
 ## Features
 
@@ -32,7 +32,7 @@ git clone https://github.com/yourusername/protestpal.git
 cd protestpal
 ```
 ### Using Docker
-<iframe src="https://giphy.com/embed/xT5LMsC6iydeziO6nC" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-6-the-simpsons-6x18-xT5LMsC6iydeziO6nC">via GIPHY</a></p>
+![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/bart-simpson-pants-1.gif)
 
 3. Build docker image.
 ```
@@ -44,7 +44,7 @@ docker run -p 3000:3000 protest-pal-frontend
 ```
 
 ### Using Node
-<iframe src="https://giphy.com/embed/YFkpsHWCsNUUo" width="480" height="436" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/YFkpsHWCsNUUo">via GIPHY</a></p>
+![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/peter-griffin-confused-1.gif)
 
 3. Install the project dependencies.
 ```
