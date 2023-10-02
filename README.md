@@ -25,18 +25,32 @@ ProtestPal is a property tax protesting app built with React that empowers prope
 ```bash
 git clone https://github.com/yourusername/protestpal.git
 ```
-Navigate to the project directory.
+2. Navigate to the project directory.
 ```
 cd protestpal
 ```
-Install the project dependencies.
+### Using Docker
+
+3. Build docker image.
+```
+docker build -t protest-pal-frontend . 
+```
+4. Run Docker image.
+```
+docker run -p 8080:80 protest-pal-frontend
+```
+
+### Using Node
+
+3. Install the project dependencies.
 ```
 npm install
 ```
-Start the development server.
+4. Start the development server.
 ```
 npm start
 ```
+
 
 ProtestPal should now be running locally on http://localhost:3000. You can access it in your web browser to begin using the app.
 
