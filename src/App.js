@@ -1,14 +1,24 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 // Create a Context
 const AppContext = createContext();
 
 // Create a Provider Component
 const AppProvider = ({ children }) => {
-  // Your context provider logic goes here
+  // Define your context provider logic here
+  const [propertyData, setPropertyData] = useState(null);
+  const [taxProtestStatus, setTaxProtestStatus] = useState(false);
+
+  // Your context value
+  const contextValue = {
+    propertyData,
+    setPropertyData,
+    taxProtestStatus,
+    setTaxProtestStatus,
+  };
 
   return (
-    <AppContext.Provider value={/* Your context value */}>
+    <AppContext.Provider value={contextValue}>
       {children}
     </AppContext.Provider>
   );
