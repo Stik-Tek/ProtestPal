@@ -25,11 +25,11 @@ ProtestPal is a property tax protesting app built with React ⚛ that empowers p
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/protestpal.git
+git clone https://github.com/Stik-Tek/ProtestPal-Frontend.git
 ```
 2. Navigate to the project directory.
 ```
-cd protestpal
+cd protestpal-frontend
 ```
 ### Using Docker
 ![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/bart-simpson-pants-1.gif)
