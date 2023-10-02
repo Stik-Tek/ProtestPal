@@ -2,7 +2,7 @@
 
 ProtestPal is a property tax protesting app built with React ⚛ that empowers property owners to take control of their property tax bills 💪 and participate in tax protests. With ProtestPal, you can easily access property assessment information, file protests, and connect with a community of like-minded individuals fighting for fair property taxes. 
 
-![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/mr-crabs-upset-1.gif)
+![](https://github.com/Stik-Tek/ProtestPal-Frontend/blob/main/gifs/mr-crabs-upset-1.gif)
 
 ## Features
 
@@ -32,7 +32,7 @@ git clone https://github.com/Stik-Tek/ProtestPal-Frontend.git
 cd protestpal-frontend
 ```
 ### Using Docker
-![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/bart-simpson-pants-1.gif)
+![](https://github.com/Stik-Tek/ProtestPal-Frontend/blob/main/gifs/bart-simpson-pants-1.gif)
 
 3. Build docker image.
 ```
@@ -44,7 +44,7 @@ docker run -p 3000:3000 protest-pal-frontend
 ```
 
 ### Using Node
-![](https://github.com/Stik-Tek/ProtestPal-Frontend/gifs/peter-griffin-confused-1.gif)
+![](https://github.com/Stik-Tek/ProtestPal-Frontend/blob/main/gifs/peter-griffin-confused-1.gif)
 
 3. Install the project dependencies.
 ```
