@@ -73,10 +73,10 @@ We welcome contributions from the community! If you'd like to contribute to Prot
     Provide a detailed description of your changes in the PR description.
 
 We will review your PR and work with you to get it merged into the main project.
-License
+## License
 
 This project is licensed under the MIT License.
-Contact
+## Contact
 
 If you have any questions or feedback, feel free to reach out to us:
 
