@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+*.old
+
+# Docker
+# Dockerfile
+.dockerignore
+
+# Dependency directories
+# You might also include 'client/node_modules/' if you have a separate client folder
+/build/
+/server/node_modules/
+
+# Production build
+/build/
