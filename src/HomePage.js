@@ -2,8 +2,42 @@
 
 import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+import UserTestimonialCard from './CardTemplates/UserTestimonialCard'; // Import the UserTestimonialCard component
+import ServiceCard from './CardTemplates/ServiceCard'; // Import the ServiceCard component
 
 function HomePage() {
+    // Sample data for available services and user testimonials
+    const services = [
+      {
+        title: 'Service 1',
+        description: 'Description of Service 1.',
+        buttonText: 'Learn More',
+      },
+      {
+        title: 'Service 2',
+        description: 'Description of Service 2.',
+        buttonText: 'Learn More',
+      },
+      // Add more services as needed
+    ];
+    const userTestimonials = [
+      {
+        userAvatar: 'user1.jpg',
+        userName: 'John Doe',
+        userPosition: 'Property Owner',
+        userTestimonial:
+          'ProtestPal helped me save hundreds on my property taxes. Highly recommended!',
+      },
+      {
+        userAvatar: 'user2.jpg',
+        userName: 'Jane Smith',
+        userPosition: 'Real Estate Agent',
+        userTestimonial:
+          'I use ProtestPal to assist my clients with property tax protests. It makes the process so much easier.',
+      },
+      // Add more user testimonials as needed
+    ];
+  
   return (
     <div>
       {/* Header */}
@@ -60,7 +94,15 @@ function HomePage() {
             </Col>
           </Row>
           <Row>
-            {/* Add featured service cards here */}
+            {services.map((service, index) => (
+              <Col key={index} md={4}>
+                <ServiceCard
+                  title={service.title}
+                  description={service.description}
+                  buttonText={service.buttonText}
+                />
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>
@@ -74,7 +116,16 @@ function HomePage() {
             </Col>
           </Row>
           <Row>
-            {/* Add user testimonial cards here */}
+            {userTestimonials.map((testimonial, index) => (
+              <Col key={index} md={6} lg={4}>
+                <UserTestimonialCard
+                  userAvatar={testimonial.userAvatar}
+                  userName={testimonial.userName}
+                  userPosition={testimonial.userPosition}
+                  userTestimonial={testimonial.userTestimonial}
+                />
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>
