@@ -13,8 +13,7 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-scripts": "4.0.3",
-    "react-bootstrap": "latest",
-    "bootstrap": "latest"
+    "react-bootstrap": "2.9.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "latest"

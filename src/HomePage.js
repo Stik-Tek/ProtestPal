@@ -1,7 +1,7 @@
 // HomePage.js
 
 import React from 'react';
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 
 function HomePage() {
   return (
@@ -25,16 +25,18 @@ function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <Jumbotron>
+      <Card className="bg-info text-white">
         <Container>
-          <h2>Empower Yourself with ProtestPal</h2>
-          <p>
-            Take control of your property taxes. File protests, connect with
-            others, and stay informed about tax-related news.
-          </p>
-          <Button variant="info">Learn More</Button>
+          <Card.Body>
+            <h2>Empower Yourself with ProtestPal</h2>
+            <p>
+              Take control of your property taxes. File protests, connect with
+              others, and stay informed about tax-related news.
+            </p>
+            <Button variant="light">Learn More</Button>
+          </Card.Body>
         </Container>
-      </Jumbotron>
+      </Card>
 
       {/* Other Content */}
       <Container>
